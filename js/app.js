@@ -4477,13 +4477,13 @@
         gsap.from(".technology-block", {
             scrollTrigger: {
                 trigger: ".page__about",
-                start: "top",
-                end: "+=340",
+                start: "top 20%",
+                end: "bottom bottom",
                 scrub: true
             },
             opacity: 0,
-            stagger: .6,
-            duration: 1
+            stagger: .5,
+            duration: 0.8
         });
         gsap.from(".footer-socials__item", {
             scrollTrigger: {
