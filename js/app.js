@@ -4477,12 +4477,12 @@
         gsap.from(".technology-block", {
             scrollTrigger: {
                 trigger: ".page__about",
-                start: "-20px center",
-                end: "70% center",
+                start: "top",
+                end: "+=340",
                 scrub: true
             },
             opacity: 0,
-            stagger: .8,
+            stagger: .6,
             duration: 1
         });
         gsap.from(".footer-socials__item", {
