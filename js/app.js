@@ -4425,7 +4425,7 @@
                 repeatDelay: 3
             });
             tlMsgBtn.to(".button", {
-                rotate: 5
+                rotate: -5
             }).to(".button", {
                 rotate: 0
             }).to(".button", {
@@ -4477,7 +4477,7 @@
         gsap.from(".technology-block", {
             scrollTrigger: {
                 trigger: ".page__about",
-                start: "0 center",
+                start: "-20px center",
                 end: "+=400px",
                 scrub: true
             },
