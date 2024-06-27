@@ -4482,8 +4482,8 @@
                 scrub: true
             },
             opacity: 0,
-            stagger: .5,
-            duration: 0.8
+            stagger: .4,
+            duration: { min: 0.2, max: 1 }
         });
         gsap.from(".footer-socials__item", {
             scrollTrigger: {
