@@ -4478,7 +4478,7 @@
             scrollTrigger: {
                 trigger: ".page__about",
                 start: "-20px center",
-                end: "+=300px",
+                end: "70% center",
                 scrub: true
             },
             opacity: 0,
